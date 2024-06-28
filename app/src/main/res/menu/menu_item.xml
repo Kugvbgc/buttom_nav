@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tabMode"
+        android:title="Home"
+        android:icon="@drawable/sharp_add_home_24"
+        />
+    <item
+        android:id="@+id/notification"
+        android:title="notification"
+        android:icon="@drawable/round_add_alert_24"
+        />
+    <item
+        android:id="@+id/tabMode12"
+        android:title="profile"
+        android:icon="@drawable/baseline_account_circle_24"
+        />
+
+</menu>

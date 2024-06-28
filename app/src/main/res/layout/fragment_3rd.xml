@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@color/white"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/_25ssp"
+        android:layout_margin="@dimen/_5sdp"
+
+        />
+
+    <EditText
+        android:id="@+id/edInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp"
+        android:background="#ED8C8C"
+        android:hint="Input a Number"
+        android:layout_margin="@dimen/_5sdp"
+        android:inputType="number"
+
+        />
+
+
+
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:textSize="@dimen/_25ssp"
+        android:layout_margin="@dimen/_10sdp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/list_item3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/_25ssp"
+                android:layout_margin="@dimen/_5sdp"
+
+                />
+
+            <TextView
+                android:id="@+id/list_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/_25ssp"
+                android:layout_margin="@dimen/_5sdp"
+
+                />
+            <TextView
+                android:id="@+id/list_item4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/_25ssp"
+                android:layout_margin="@dimen/_5sdp"
+
+                />
+            <TextView
+                android:id="@+id/list_item2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/_25ssp"
+                android:layout_margin="@dimen/_5sdp"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
